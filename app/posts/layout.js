@@ -1,9 +1,9 @@
-import Counter from './Counter'
+import Counter from '../index/components/Counter'
 
 function PostsLayout ({ children }) {
   return (
     <>
-      <h1>Este es el layout de los Posts</h1>
+      <h1>Posts</h1>
       <Counter />
       {children}
     </>

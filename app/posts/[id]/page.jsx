@@ -1,9 +1,3 @@
-function Post ({ params }) {
-  const { id } = params
+function PostPage () {}
 
-  return (
-    <h1>Esto es un post {id}</h1>
-  )
-}
-
-export default Post
+export default PostPage
